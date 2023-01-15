@@ -26,6 +26,7 @@ h6 {
 }
 h2 {
 	font-family: var(--font-default);
+	font-size: 32px;
 }
 
 h1 {
@@ -73,6 +74,6 @@ h2 {
 		text-align: center;
 	}
 	h1 {
-		font-size: 16px;
+		font-size: 60px;
 	}
 }
