@@ -24,14 +24,15 @@ h6 {
 	font-weight: bold;
 	color: black;
 }
-h2 {
+.hero h2 {
 	font-family: var(--font-default);
-	font-size: 32px;
+	font-size: 24px;
+	line-height: 1.5;
 }
 
 h1 {
 	font-size: 96px;
-	line-height: 2;
+	line-height: 1.5;
 }
 h2 {
 	font-size: 64px;
@@ -73,8 +74,12 @@ h2 {
 		padding: 0;
 		text-align: center;
 	}
+	.hero {
+		padding: 80px 20px;
+	}
 	h1 {
-		font-size: 60px;
+		font-size: 44px;
+		line-height: 2;
 	}
 	h2 {
 		font-size: 36px;
