@@ -13,7 +13,10 @@ p {
 	font-size: 16px;
 	line-height: 30px;
 }
-
+img {
+	box-shadow: 2px 2px 10px rgb(205, 199, 199);
+	border-radius: 8px;
+}
 h1,
 h2,
 h3,
@@ -37,11 +40,17 @@ h1 {
 h2 {
 	font-size: 64px;
 }
+.mini-desc {
+	/* background: rgba(246, 241, 241, 0.5); */
+	box-shadow: 2px 10px 30px rgb(248, 246, 246);
+	border-radius: 5px;
+}
 .hero {
 	background: var(--seconary-color);
 	text-align: center;
 	margin: 160px 20px;
 	margin: 0 auto;
+	text-shadow: 2px 2px 5px #f0ebeb;
 }
 .hero p {
 	font-family: var(--font-default);
@@ -53,11 +62,14 @@ h2 {
 .btn-branding {
 	border-radius: 4px;
 	background: var(--branding-collor);
-	color: white;
+	color: var(--branding-collor);
 	font-size: 18px;
 	line-height: 27px;
 	padding: 15px 30px;
+	box-shadow: 2px 2px 5px gray;
+	/* transition: all 200ms; */
 }
+
 .btn-branding-outline {
 	border-radius: 4px;
 	color: var(--branding-color);
@@ -65,6 +77,8 @@ h2 {
 	font-size: 18px;
 	line-height: 27px;
 	padding: 15px 30px;
+	box-shadow: 1px 1px 5px gray;
+	text-decoration: none;
 }
 .proj-desc {
 	padding: 120px 60px;
@@ -83,5 +97,8 @@ h2 {
 	}
 	h2 {
 		font-size: 36px;
+	}
+	.btn-branding-outline {
+		padding: 10px 20px;
 	}
 }
