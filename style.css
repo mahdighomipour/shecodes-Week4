@@ -41,8 +41,9 @@ h2 {
 	font-size: 64px;
 }
 .about-section {
-	margin: auto;
-	margin: 160px 20px;
+	text-align: center;
+	margin: 0 auto;
+	/* margin: 160px 20px; */
 }
 .about-section h1 {
 	font-size: 64px;
