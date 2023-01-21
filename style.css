@@ -55,22 +55,27 @@ h2 {
 	font-weight: normal;
 	line-height: 1.5;
 }
-.about-section {
+.content-container {
 	text-align: center;
 	margin: 0 auto;
 	padding: 160px 20px;
 }
-.about-section h1 {
+.content {
+	margin: 30px;
+}
+.content h1 {
 	font-size: 64px;
 	line-height: 80px;
 }
-.about-section h2 {
+.content h2 {
 	font-size: 18px;
 	font-family: var(--font-default);
 }
-.about-section-content {
-	margin: 30px;
+.content h3 {
+	font-size: 24px;
+	font-family: var(--font-default);
 }
+
 .mini-desc {
 	/* background: rgba(246, 241, 241, 0.5); */
 	box-shadow: 2px 10px 30px rgb(248, 246, 246);
@@ -120,7 +125,7 @@ h2 {
 	.btn-branding-outline {
 		padding: 10px 20px;
 	}
-	.about-section {
+	.content-container {
 		text-align: center;
 		padding: 0;
 	}
