@@ -27,11 +27,6 @@ h6 {
 	font-weight: bold;
 	color: black;
 }
-.hero h2 {
-	font-family: var(--font-default);
-	font-size: 24px;
-	line-height: 1.5;
-}
 
 h1 {
 	font-size: 96px;
@@ -40,10 +35,30 @@ h1 {
 h2 {
 	font-size: 64px;
 }
+.hero {
+	background: var(--seconary-color);
+	text-align: center;
+	margin: 160px 20px;
+	margin: 0 auto;
+	text-shadow: 2px 2px 5px #f0ebeb;
+}
+.hero p {
+	font-family: var(--font-default);
+	font-weight: bold;
+	font-size: 36px;
+	margin: 0;
+	color: #272142;
+}
+.hero h2 {
+	font-family: var(--font-default);
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 1.5;
+}
 .about-section {
 	text-align: center;
 	margin: 0 auto;
-	/* margin: 160px 20px; */
+	padding: 160px 20px;
 }
 .about-section h1 {
 	font-size: 64px;
@@ -61,29 +76,17 @@ h2 {
 	box-shadow: 2px 10px 30px rgb(248, 246, 246);
 	border-radius: 5px;
 }
-.hero {
-	background: var(--seconary-color);
-	text-align: center;
-	margin: 160px 20px;
-	margin: 0 auto;
-	text-shadow: 2px 2px 5px #f0ebeb;
-}
-.hero p {
-	font-family: var(--font-default);
-	font-weight: normal;
-	font-size: 24px;
-	margin: 0;
-	color: #272142;
-}
+
 .btn-branding {
 	border-radius: 4px;
 	background: var(--branding-color);
-	color: black;
+	color: white;
 	font-size: 18px;
 	line-height: 27px;
 	padding: 15px 30px;
-	box-shadow: 2px 2px 5px gray;
-	transition: all 400ms;
+}
+.btn-branding:hover {
+	border: 1px solid var(--branding-color);
 }
 
 .btn-branding-outline {
