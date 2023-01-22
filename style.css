@@ -27,7 +27,14 @@ h6 {
 	font-weight: bold;
 	color: black;
 }
-
+h4 {
+	font-size: 48px;
+}
+p {
+	font-family: var(--font-default);
+	font-weight: bold;
+	color: black;
+}
 h1 {
 	font-size: 96px;
 	line-height: 1.5;
@@ -129,6 +136,38 @@ nav li.active a {
 }
 .proj-desc {
 	padding: 120px 60px;
+}
+
+footer .email-link {
+	font-family: var(--font-default);
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-size: 24px;
+}
+footer .email-link:hover {
+	color: var(--branding-color);
+}
+footer div {
+	margin: 30px 0;
+}
+footer .social-link a {
+	margin: 0 20px;
+	color: var(--branding-color);
+	background: var(--seconary-color);
+	padding: 10px 15px;
+	border-radius: 50%;
+	font-size: 18px;
+	transition: all 200ms ease-in-out;
+}
+footer .social-link a:hover {
+	color: white;
+	background: var(--branding-color);
+}
+footer .contact-box {
+	background: var(--seconary-color);
+	padding: 30px 80px;
+	border-radius: 10px;
 }
 @media (max-width: 960px) {
 	.proj-desc {
