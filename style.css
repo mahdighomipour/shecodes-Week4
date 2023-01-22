@@ -69,7 +69,7 @@ nav li.active a {
 .hero {
 	background: var(--seconary-color);
 	text-align: center;
-	margin: 160px 20px;
+	margin: 80px 20px;
 	margin: 0 auto;
 	text-shadow: 2px 2px 5px #f0ebeb;
 }
@@ -89,7 +89,7 @@ nav li.active a {
 .content-container {
 	text-align: center;
 	margin: 0 auto;
-	padding: 160px 20px;
+	padding: 60px 20px;
 }
 .content {
 	margin: 30px;
@@ -175,9 +175,7 @@ footer .contact-box {
 		padding: 0;
 		text-align: center;
 	}
-	.hero {
-		padding: 80px 20px;
-	}
+
 	h1 {
 		font-size: 44px;
 		line-height: 2;
