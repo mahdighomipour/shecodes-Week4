@@ -50,6 +50,7 @@ nav {
 	max-height: 70px;
 }
 nav li {
+	font-size: 20px;
 	display: inline;
 	list-style: none;
 	line-height: 42px;
