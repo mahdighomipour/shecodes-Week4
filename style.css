@@ -35,6 +35,29 @@ h1 {
 h2 {
 	font-size: 64px;
 }
+nav {
+	padding: 20px 0;
+}
+.logo {
+	max-width: 150px;
+	max-height: 70px;
+}
+nav li {
+	display: inline;
+	list-style: none;
+	line-height: 42px;
+	margin-left: 15px;
+}
+nav a {
+	text-decoration: none;
+	color: #272142;
+}
+nav a:hover,
+nav li.active a {
+	color: var(--branding-color);
+	transition: all 100ms ease-in-out;
+}
+
 .hero {
 	background: var(--seconary-color);
 	text-align: center;
@@ -128,5 +151,8 @@ h2 {
 	.content-container {
 		text-align: center;
 		padding: 0;
+	}
+	nav a {
+		font-size: 13px;
 	}
 }
